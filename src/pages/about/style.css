@@ -1,0 +1,106 @@
+.about {
+  background-color: #00100f;
+  background-image: url("../../assets/about/mask.png");
+}
+
+.mask {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url("../../assets/about/mask.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    #00100f 23.79%,
+    rgba(0, 16, 15, 0.72) 100%
+  );
+}
+
+.grid-overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  opacity: 0.2;
+}
+
+.grid-box {
+  width: 100%;
+  height: 100%;
+  background: #333;
+  border-radius: 10px;
+}
+
+.content {
+  position: relative;
+  width: 600px;
+  color: white;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #20c997;
+}
+
+.subtitle {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.description {
+  font-size: 16px;
+  color: #ccc;
+  margin: 15px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.7px;
+  letter-spacing: 0%;
+  transition: background 0.3s;
+}
+
+.teal {
+  background: linear-gradient(180deg, #32ddd4 0%, #1a746f 100%);
+  color: white;
+}
+
+.teal:hover {
+  background: #1aa57c;
+}
+
+.gray {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(181, 181, 181, 0.2) 100%
+  ) !important;
+  box-shadow: 0px 20px 40px 0px #33333333;
+  box-shadow: 0px 9.16px 9.16px 0px #ffffff1a inset;
+  box-shadow: -0px -9.16px 9.16px 0px #a2a2a21a inset;
+  backdrop-filter: blur(30px);
+  color: white;
+}
+
+.gray:hover {
+  background: #444;
+}

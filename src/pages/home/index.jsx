@@ -3,7 +3,7 @@ import "./style.css";
 
 const Home = () => {
   return (
-    <div className="container">
+    <div className="home">
       <h1>Создай тело мечты вместе с Moreon Fitness</h1>
       <ul>
         <li>Гибкая клубная карта</li>
