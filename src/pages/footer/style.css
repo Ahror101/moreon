@@ -1,8 +1,8 @@
 .footer {
   background-color: #0d1117;
   color: white;
-  padding: 40px 20px;
   font-size: 16px;
+  padding: 40px 100px;
 }
 
 .footer-container {
@@ -87,8 +87,11 @@ ul li {
 }
 
 .footer-bottom {
-  text-align: start; /* Matn chapga tekislangan */
+  display: flex;
+  text-align: start;
   margin-top: 40px;
   font-size: 14px;
+  justify-content: space-between;
+  align-items: center;
   color: #b1b1b1;
 }

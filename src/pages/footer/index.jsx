@@ -1,14 +1,13 @@
 import React from "react";
 import "./style.css";
 
-
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        
         <div className="footer-section">
           <div className="working-hours">
+            <img src={require("../../assets/navbar/logo.png")} alt="" />
             <h3>Время работы:</h3>
             <p>
               <strong>Будни:</strong> 07:00 - 23:00
@@ -61,12 +60,13 @@ const Footer = () => {
         </div>
       </div>
 
+      <hr />
+
       <div className="footer-bottom">
         <p>© AО Европейские технологии и сервис. 2021</p>
-        <p>
-          Использование cookies | Политика обработки персональных данных |
-          Правила посещения
-        </p>
+        <p>Использование cookies</p>
+        <p>Политика обработки персональных данных</p>
+        <p> Правила посещения</p>
       </div>
     </footer>
   );
