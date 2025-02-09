@@ -1,9 +1,12 @@
 import React from "react";
 import "./style.css";
+import Effect from "../../components/effect";
 
 const About = () => {
   return (
     <div className="about">
+      <Effect left="30%" top="25%" />
+          <Effect left="70%" top="45%" />
       <div className="mask">
         <div className="content">
           <h1 className="title">Moreon Fitness</h1>
