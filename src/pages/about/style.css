@@ -1,4 +1,5 @@
 .about {
+  margin-top: 72px;
   background-color: #00100f;
   background-image: url("../../assets/about/mask.png");
 }
@@ -6,7 +7,7 @@
 .mask {
   position: relative;
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 112px);
   background-image: url("../../assets/about/mask.png");
   display: flex;
   align-items: center;
