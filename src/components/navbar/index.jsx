@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./style.css";
 import {
   FaPhone,
@@ -26,13 +27,27 @@ const Navbar = () => {
           <img src={require("../../assets/navbar/logo.png")} alt="*" />
         </div>
         <ul>
-          <li>О клубе</li>
-          <li>Галерея</li>
-          <li>Клубные карты</li>
-          <li>Услуги</li>
-          <li>Расписание</li>
-          <li>Бани и бассейны</li>
-          <li>Детский центр</li>
+          <li>
+            <Link to={"/about"}>О клубе</Link>
+          </li>
+          <li>
+            <Link to="/gallery">Галерея</Link>
+          </li>
+          <li>
+            <Link to="/club-cards">Клубные карты</Link>
+          </li>
+          <li>
+            <Link to="/services">Услуги</Link>
+          </li>
+          <li>
+            <Link to="/schedule">Расписание</Link>
+          </li>
+          <li>
+            <Link to="/baths-and-pools">Бани и бассейны</Link>
+          </li>
+          <li>
+            <Link to="/kids-center">Детский центр</Link>
+          </li>
         </ul>
       </div>
     </nav>

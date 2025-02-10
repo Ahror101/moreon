@@ -69,7 +69,12 @@
   text-wrap: nowrap;
 }
 
-.nav-menu li:hover {
+.nav-menu li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-menu li a:hover {
   color: #2dd4bf; /* teal-400 */
 }
 

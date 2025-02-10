@@ -2,9 +2,9 @@ import React from "react";
 import "./style.css";
 import Effect from "../../components/effect";
 
-const About = () => {
+const Schedule = () => {
   return (
-    <div className="about">
+    <div className="schedule">
       <Effect left="30%" top="25%" />
       <Effect left="70%" top="45%" />
       <div className="mask">
@@ -27,4 +27,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Schedule;

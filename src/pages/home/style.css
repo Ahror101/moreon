@@ -5,26 +5,26 @@
   text-align: center;
 }
 
-h1 {
+.home h1 {
   font-size: 2.5em;
   margin-bottom: 20px;
 }
 
-ul {
+.home ul {
   list-style-type: none;
   padding: 0;
 }
 
-ul li {
+.home ul li {
   font-size: 1.2em;
   margin-bottom: 10px;
 }
 
-.buttons {
+.home .buttons {
   margin: 20px 0;
 }
 
-.buttons button {
+.home .buttons button {
   background-color: #007bff;
   color: white;
   border: none;
@@ -34,24 +34,24 @@ ul li {
   font-size: 1em;
 }
 
-.buttons button:hover {
+.home .buttons button:hover {
   background-color: #0056b3;
 }
 
-.stats {
+.home .stats {
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
 }
 
-.stats div {
+.home .stats div {
   background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.stats h2 {
+.home .stats h2 {
   font-size: 2em;
   margin-bottom: 10px;
 }
