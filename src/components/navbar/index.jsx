@@ -24,7 +24,9 @@ const Navbar = () => {
       </div>
       <div className="nav-menu">
         <div className="brand">
-          <img src={require("../../assets/navbar/logo.png")} alt="*" />
+          <Link to={"/"}>
+            <img src={require("../../assets/navbar/logo.png")} alt="*" />
+          </Link>
         </div>
         <ul>
           <li>

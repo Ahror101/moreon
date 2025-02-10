@@ -1,4 +1,4 @@
-.teks {
+.about {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11,7 +11,7 @@
   border-radius: 10px;
 }
 
-.teks span {
+.about span {
   color: #2ec4b6; 
 }
 

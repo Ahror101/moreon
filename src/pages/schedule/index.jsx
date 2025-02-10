@@ -5,21 +5,18 @@ import Effect from "../../components/effect";
 const Schedule = () => {
   return (
     <div className="schedule">
-      <Effect left="30%" top="25%" />
-      <Effect left="70%" top="45%" />
+      <Effect left="20%" top="25%" />
+      <Effect left="70%" top="35%" />
       <div className="mask">
         <div className="content">
-          <h1 className="title">Moreon Fitness</h1>
-          <p className="subtitle">откроет для вас</p>
-          <p className="subtitle">новые возможности</p>
+          <div className="text">
+          <h1 className="title">Расписание</h1>
           <p className="description">
-            500 000 м2 фитнес зала, 100 500 тренажеров VIP уровня, Бассейны и
-            СПА центр, гибкая клубная карта, персональные тренировки и все самые
-            продвинутые программы 2022 года ждут вас в Moreon Fitness
+            Описание расписания 2 <br /> строчкиописание расписания 2 строчки
           </p>
-          <div className="buttons">
-            <button className="btn teal">Узнать подробнее</button>
-            <button className="btn gray">Рассчитать стоимость</button>
+          </div>
+          <div className="image">
+            <img src={require("../../assets/schedule/gantel.png")} alt="" />
           </div>
         </div>
       </div>
