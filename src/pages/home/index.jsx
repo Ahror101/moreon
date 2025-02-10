@@ -1,10 +1,21 @@
+<<<<<<< HEAD
+import React from 'react'
+=======
 import React from "react";
 import Contacts from "../../pages/contact";
 import Footer from "../../pages/footer";
 import "./style.css";
+>>>>>>> feab73c0699babcc1eb01c954b86c9343db27aaa
 
-const Home = () => {
+export default function index() {
   return (
+<<<<<<< HEAD
+    <div>
+      
+    </div>
+  )
+}
+=======
     <>
       <div className="home">
         <h1>Создай тело мечты вместе с Moreon Fitness</h1>
@@ -38,3 +49,4 @@ const Home = () => {
 };
 
 export default Home;
+>>>>>>> feab73c0699babcc1eb01c954b86c9343db27aaa
