@@ -1,0 +1,43 @@
+.teks {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.teks span {
+  color: #2ec4b6;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttons button {
+  position: relative;
+  top: -390px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.first {
+  background-color: #2ec4b6;
+  color: white;
+}
+
+.second {
+  background-color: #333;
+  color: white;
+}

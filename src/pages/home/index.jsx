@@ -1,34 +1,9 @@
-import React from "react";
-import "./style.css";
+import React from 'react'
 
-const Home = () => {
+export default function index() {
   return (
-    <div className="container">
-      <h1>Создай тело мечты вместе с Moreon Fitness</h1>
-      <ul>
-        <li>Гибкая клубная карта</li>
-        <li>Персональные тренировки</li>
-        <li>Все самые продвинутые программы 2022 года</li>
-      </ul>
-      <div className="buttons">
-        <button>Узнать подробнее</button>
-        <button>Рассчитать стоимость</button>
-      </div>
-      <div className="stats">
-        <div>
-          <h2>500 000 м²</h2>
-          <p>Площадь зала</p>
-        </div>
-        <div>
-          <h2>100 500</h2>
-          <p>Тренажеров VIP уровня</p>
-        </div>
-        <div>
-          <h2>Бассейны и СПА центр</h2>
-        </div>
-      </div>
+    <div>
+      
     </div>
-  );
-};
-
-export default Home;
+  )
+}
