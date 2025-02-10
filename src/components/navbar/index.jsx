@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 import {
@@ -6,9 +7,13 @@ import {
   FaFacebook,
   FaVk,
   FaTelegram,
+  FaBars,
+  FaTimes,
 } from "react-icons/fa";
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav className="navbar">
       <div className="top-bar">
@@ -16,39 +21,58 @@ const Navbar = () => {
           <span>
             <FaPhone /> +7 (495) 859-03-72
           </span>
-          <FaTelegram />
-          <FaInstagram />
-          <FaFacebook />
-          <FaVk />
+          <div className="socials">
+            <FaTelegram />
+            <FaInstagram />
+            <FaFacebook />
+            <FaVk />
+          </div>
         </div>
       </div>
       <div className="nav-menu">
+        <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+          {menuOpen ? <FaTimes /> : <FaBars />}
+        </div>
         <div className="brand">
           <Link to={"/"}>
             <img src={require("../../assets/navbar/logo.png")} alt="*" />
           </Link>
         </div>
-        <ul>
+        <ul className={menuOpen ? "nav-links active" : "nav-links"}>
           <li>
-            <Link to={"/about"}>О клубе</Link>
+            <Link to={"/about"} onClick={() => setMenuOpen(false)}>
+              О клубе
+            </Link>
           </li>
           <li>
-            <Link to="/gallery">Галерея</Link>
+            <Link to="/gallery" onClick={() => setMenuOpen(false)}>
+              Галерея
+            </Link>
           </li>
           <li>
-            <Link to="/club-cards">Клубные карты</Link>
+            <Link to="/club-cards" onClick={() => setMenuOpen(false)}>
+              Клубные карты
+            </Link>
           </li>
           <li>
-            <Link to="/services">Услуги</Link>
+            <Link to="/services" onClick={() => setMenuOpen(false)}>
+              Услуги
+            </Link>
           </li>
           <li>
-            <Link to="/schedule">Расписание</Link>
+            <Link to="/schedule" onClick={() => setMenuOpen(false)}>
+              Расписание
+            </Link>
           </li>
           <li>
-            <Link to="/baths-and-pools">Бани и бассейны</Link>
+            <Link to="/baths-and-pools" onClick={() => setMenuOpen(false)}>
+              Бани и бассейны
+            </Link>
           </li>
           <li>
-            <Link to="/kids-center">Детский центр</Link>
+            <Link to="/kids-center" onClick={() => setMenuOpen(false)}>
+              Детский центр
+            </Link>
           </li>
         </ul>
       </div>

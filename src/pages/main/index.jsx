@@ -5,8 +5,8 @@ import Effect from "../../components/effect";
 const Main = () => {
   return (
     <div className="main">
-      <Effect left="30%" top="25%" />
-      <Effect left="70%" top="45%" />
+      <Effect left="30%" top="25%" className="effect1" />
+      <Effect left="70%" top="45%" className="effect2" />
       <div className="mask">
         <div className="content">
           <h1 className="title">Moreon Fitness</h1>

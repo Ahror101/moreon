@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import { WiSprinkle } from "react-icons/wi";
 import { FaFacebook, FaInstagram, FaVk } from "react-icons/fa";
 
 const Footer = () => {
@@ -9,25 +8,14 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-section">
           <div className="working-hours">
-            <img src={require("../../assets/navbar/logo.png")} alt="" />
-            <br />
-            <b>Время работы:</b>
-            <p>
-              <span>Будни:</span> 07:00 - 23:00
-            </p>
-            <p>
-              <span>Бассейн:</span> 07:00 - 23:00
-            </p>
-            <p>
-              <span>Выходные:</span> 09:00 - 23:00
-            </p>
-            <p>
-              <span>Бассейн:</span> 09:00 - 23:00
-            </p>
+            <img src={require("../../assets/navbar/logo.png")} alt="Logo" />
+            <h3>Время работы:</h3>
+            <p><strong>Будни:</strong> 07:00 - 23:00</p>
+            <p><strong>Бассейн:</strong> 07:00 - 23:00</p>
+            <p><strong>Выходные:</strong> 09:00 - 23:00</p>
+            <p><strong>Бассейн:</strong> 09:00 - 23:00</p>
           </div>
         </div>
-
-        {/* Xizmatlar */}
         <div className="footer-section">
           <ul>
             <li>Тренажерный зал</li>
@@ -37,8 +25,6 @@ const Footer = () => {
             <li>Скалодром для детей</li>
           </ul>
         </div>
-
-        {/* Qo'shimcha xizmatlar */}
         <div className="footer-section">
           <ul>
             <li>Единоборства</li>
@@ -48,40 +34,27 @@ const Footer = () => {
             <li>Подарочный сертификат</li>
           </ul>
         </div>
-
-        {/* Manzil va ijtimoiy tarmoqlar */}
         <div className="footer-section">
-          <div className="flex">
-            <span>📍</span>
-            <p> г. Москва, м. Ясенево, ул. Голубинская, д. 16</p>
-          </div>
+          <p>📍 г. Москва, м. Ясенево, ул. Голубинская, д. 16</p>
           <p>📞 +7 (495) 859-03-70</p>
           <div className="social-icons">
-            <span>
-              <FaVk />
-            </span>
-            <span>
-              <FaInstagram />
-            </span>
-            <span>
-              <FaFacebook />
-            </span>
+            <span><FaVk /></span>
+            <span><FaInstagram /></span>
+            <span><FaFacebook /></span>
           </div>
-          <p>Скачать приложение</p>
+          <h4>Скачать приложение</h4>
           <div className="app-buttons">
             <button className="google-play">Google Play</button>
             <button className="app-store">App Store</button>
           </div>
         </div>
       </div>
-
       <hr />
-
       <div className="footer-bottom">
         <p>© AО Европейские технологии и сервис. 2021</p>
         <p>Использование cookies</p>
         <p>Политика обработки персональных данных</p>
-        <p> Правила посещения</p>
+        <p>Правила посещения</p>
       </div>
     </footer>
   );
