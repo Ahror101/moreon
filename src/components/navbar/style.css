@@ -3,7 +3,9 @@
   color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: sticky;
+  z-index: 1;
   top: 0;
+  height: 40px;
 }
 
 .top-bar {
@@ -64,6 +66,7 @@
 .nav-menu li {
   cursor: pointer;
   transition: color 0.3s;
+  text-wrap: nowrap;
 }
 
 .nav-menu li:hover {

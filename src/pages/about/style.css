@@ -12,19 +12,17 @@
 }
 
 .teks span {
-  color: #2ec4b6;
+  color: #2ec4b6; 
 }
 
 .buttons {
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 10px; 
 }
 
 .buttons button {
-  position: relative;
-  top: -390px;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
@@ -35,6 +33,7 @@
 .first {
   background-color: #2ec4b6;
   color: white;
+  
 }
 
 .second {

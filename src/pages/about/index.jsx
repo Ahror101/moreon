@@ -1,22 +1,30 @@
 import React from "react";
 import "./style.css";
+import Effect from "../../components/effect";
 
-
-export default function About() {
+const About = () => {
   return (
-    <div className="countainer">
-      <div className="over">
-        <div className="photo">
-          <img src={require("../../assets/gallery/baground.png")} alt=""  width={1519} />
-        </div>
-        <div className="teks">
-          <h1> <span>Moreon Fitness</span> <br /> откроет для вас <br /> новые возможности</h1>
-        </div>
-        <div className="buttons">
-            <button className="first">Узнать подробнее</button>
-            <button className="second">Рассчитать стоимость</button>
+    <div className="about">
+      <Effect left="30%" top="25%" />
+          <Effect left="70%" top="45%" />
+      <div className="mask">
+        <div className="content">
+          <h1 className="title">Moreon Fitness</h1>
+          <p className="subtitle">откроет для вас</p>
+          <p className="subtitle">новые возможности</p>
+          <p className="description">
+            500 000 м2 фитнес зала, 100 500 тренажеров VIP уровня, Бассейны и
+            СПА центр, гибкая клубная карта, персональные тренировки и все самые
+            продвинутые программы 2022 года ждут вас в Moreon Fitness
+          </p>
+          <div className="buttons">
+            <button className="btn teal">Узнать подробнее</button>
+            <button className="btn gray">Рассчитать стоимость</button>
+          </div>
         </div>
       </div>
     </div>
   );
-}
+};
+
+export default About;
