@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import { WiSprinkle } from "react-icons/wi";
+import { FaFacebook, FaInstagram, FaVk } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -8,18 +10,19 @@ const Footer = () => {
         <div className="footer-section">
           <div className="working-hours">
             <img src={require("../../assets/navbar/logo.png")} alt="" />
-            <h3>Время работы:</h3>
+            <br />
+            <b>Время работы:</b>
             <p>
-              <strong>Будни:</strong> 07:00 - 23:00
+              <span>Будни:</span> 07:00 - 23:00
             </p>
             <p>
-              <strong>Бассейн:</strong> 07:00 - 23:00
+              <span>Бассейн:</span> 07:00 - 23:00
             </p>
             <p>
-              <strong>Выходные:</strong> 09:00 - 23:00
+              <span>Выходные:</span> 09:00 - 23:00
             </p>
             <p>
-              <strong>Бассейн:</strong> 09:00 - 23:00
+              <span>Бассейн:</span> 09:00 - 23:00
             </p>
           </div>
         </div>
@@ -48,11 +51,23 @@ const Footer = () => {
 
         {/* Manzil va ijtimoiy tarmoqlar */}
         <div className="footer-section">
-          <p>📍 г. Москва, м. Ясенево, ул. Голубинская, д. 16</p>
+          <div className="flex">
+            <span>📍</span>
+            <p> г. Москва, м. Ясенево, ул. Голубинская, д. 16</p>
+          </div>
           <p>📞 +7 (495) 859-03-70</p>
           <div className="social-icons">
-            <span>VK</span> <span>Instagram</span> <span>Facebook</span>
+            <span>
+              <FaVk />
+            </span>
+            <span>
+              <FaInstagram />
+            </span>
+            <span>
+              <FaFacebook />
+            </span>
           </div>
+          <p>Скачать приложение</p>
           <div className="app-buttons">
             <button className="google-play">Google Play</button>
             <button className="app-store">App Store</button>

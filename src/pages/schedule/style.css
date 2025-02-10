@@ -45,6 +45,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 50px 100px;
+  text-align: start;
 }
 
 .schedule .content .image {
@@ -105,4 +106,16 @@
 
 .schedule .gray:hover {
   background: #444;
+}
+
+.schedule-container .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00100f;
+  padding: 100px 20px;
+}
+
+.schedule-container .body img {
 }

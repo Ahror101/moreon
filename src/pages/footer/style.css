@@ -8,11 +8,11 @@
 .footer-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   flex-wrap: wrap;
-  max-width: 1400px;
+  width: 100%;
   margin: auto;
-  gap: 60px;
+  gap: 10px;
+  padding-block: 30px;
 }
 
 .footer-section {
@@ -21,39 +21,29 @@
   text-align: start; /* Matnni chapga tekislash */
 }
 
-.footer-logo {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.footer-logo span {
-  color: #58a6ff;
-}
-
 .working-hours {
-  padding: 15px;
   border-radius: 10px;
-  margin-top: 10px;
   text-align: start; /* Matn chapga tekislangan */
 }
 
-.working-hours h3 {
-  color: #58a6ff;
-  font-size: 18px;
-  margin-bottom: 8px;
-}
-
+.footer p,
 .working-hours p {
   margin: 5px 0;
+  color: grey;
 }
 
-ul {
+.working-hours img {
+  margin-bottom: 20px;
+}
+
+.footer ul {
   list-style: none;
   padding: 0;
 }
 
-ul li {
+.footer ul li {
   margin-bottom: 10px;
+  color: grey;
 }
 
 .social-icons {
@@ -65,7 +55,8 @@ ul li {
 
 .social-icons span {
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 25px;
 }
 
 .app-buttons {
@@ -73,6 +64,10 @@ ul li {
   justify-content: flex-start; /* Chapga tekislash */
   gap: 10px;
   margin-top: 15px;
+}
+
+.footer-section .flex {
+  display: flex;
 }
 
 .google-play,
