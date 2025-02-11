@@ -1,6 +1,6 @@
 import React from "react";
 import Contacts from "../../pages/contact";
-import Footer from "../../pages/footer";
+import Footer from "../../components/footer";
 import "./style.css";
 
 const Home = () => {
