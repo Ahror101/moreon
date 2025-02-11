@@ -77,7 +77,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 35px;
+  gap: 10px;
   list-style: none;
   z-index: 95;
 }

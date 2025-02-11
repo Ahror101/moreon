@@ -1,8 +1,13 @@
 .home {
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
+  margin-top: 75px;
   padding: 20px;
   text-align: center;
+}
+
+.home .start{
+  height: 100dvh;
 }
 
 .home h1 {

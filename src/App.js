@@ -11,8 +11,8 @@ export default function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/home" element={<Home />} />
+        {/* <Route path="/" element={<Main />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/schedule" element={<Schedule />} />
       </Routes>

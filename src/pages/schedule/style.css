@@ -12,7 +12,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
   background: linear-gradient(
     180deg,
     #00100f 23.79%,
@@ -117,5 +116,9 @@
   padding: 100px 20px;
 }
 
-.schedule-container .body img {
+@media (max-width: 768px) {
+  .schedule .mask.content{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
