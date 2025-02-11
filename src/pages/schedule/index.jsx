@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import Effect from "../../components/effect";
-import Footer from "../footer";
+import Footer from "../../components/footer";
 
 const Schedule = () => {
   return (
